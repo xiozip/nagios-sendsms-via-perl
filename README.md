@@ -6,6 +6,8 @@ Sript PERL send SMS via GSM-route
 
 Можно подключить  этот скрипт к событию в Nagios и к Вам будут приходить SMS.
 
+Для начала не забудьте подключить к PERL модули из CPAN.
+
 В строке :
 
 $connect->open('X.X.X.X');
