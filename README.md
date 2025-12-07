@@ -3,6 +3,32 @@ Sript PERL send SMS via GSM-route
 
 Можно подключить  этот скрипт к событию в Nagios и к Вам будут приходить SMS.
 
+В строке :
+
+$connect->open('X.X.X.X');
+Необходимо прописать IP адрес роутера.
+
+В строке:
+
+$connect->login('admin', 'password');
+
+Пропишите учетную запись и пароль.
+
+В шаблоне 8XXXXXXXXXX   пропишите номер телефона для получения СМС
+
+В секций
+
+//####################
+
+//# Send to Email MIME
+
+//####################
+
+
+Пропишите реквизиты почты.
+
+Подключите скрипт к Nagios
+
 EXTERNAL COMMAND FILE
 
 This is the file that Nagios checks for external command requests.
