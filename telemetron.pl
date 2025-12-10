@@ -3,7 +3,7 @@
 #		Send SMS in GSM router GS1001					#
 #		and send Email na hostt@primer.ru					#
 #		Author Kardash Anton Email lagorue@gmail.com		#
-#													#
+#													
 #################################################################
 #!/usr/bin/perl
 #######################
@@ -56,4 +56,5 @@ Data     => "$date $time $hostname $hostaddress Status $hoststate",
 );
 $msg->send('smtp','mailo.sever.com',);
 #
+
 
